@@ -35,7 +35,7 @@ public class MenuController {
         model.addAttribute("menus", menuDao.findAll());
         model.addAttribute("title", "Menus");
 
-        return "/menu";
+        return "/menu/index";
 
     }
 

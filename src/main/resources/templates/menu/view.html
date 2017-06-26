@@ -5,6 +5,9 @@
 </head>
 <body>
 
+<nav th:replace="fragments :: navigation"></nav>
+<p></p>
+
 <ul th:each="item : ${menu.cheeses}">
     <li th:text="${item.name}"></li>
 </ul>
