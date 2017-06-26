@@ -18,7 +18,7 @@
     </tr>
 
     <tr th:each="menu : ${menus}">
-        <a href="'menu/view/' + ${menu.id}">${menu.name}</a>
+        <td><a th:href="'menu/view/' + ${menu.id}">"${menu.name}"</a></td>
     </tr>
 
 </table>
